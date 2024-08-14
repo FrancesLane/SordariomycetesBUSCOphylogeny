@@ -53,3 +53,4 @@ echo
 echo Filtering complete.
 echo
 echo There are $(find concatenated_genes/filtered_genes/ -maxdepth 1 -type f | wc -l) genes present in all $genome genomes.
+echo There are $(find concatenated_genes/filtered_genes/ -maxdepth 1 -type f | wc -l) genes present in all $genome genomes. > gene_number.txt
