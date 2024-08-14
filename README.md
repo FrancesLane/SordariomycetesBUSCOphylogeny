@@ -9,6 +9,11 @@ trimmed alignments can then be concatenated using FASconCAT-G (v. 1.05.1; KÜCK 
 by construction of the phylogeny using tools such as IQTree2 (v. 2.2.5; CHERNOMOR et al. 2016;
 KALYAANAMOORTHY et al. 2017). 
 
+The following instructions should help users that are relatively new to line command to excute these 
+scripts and generate trimmed gene alignments that can be concatenated by FASconCAT-G. This was used to 
+produce a phylogeny for Sordariomycetes. For use on species outside of this class, or use with a different 
+BUSCO lineage, adaptations may have to be made.
+
 Downloading all scripts into the directory containing the genome assemblies that will be input. To ensure
 all scripts are executable, run the following script:
 
